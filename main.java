@@ -25,7 +25,7 @@ public class main {
             // Создаем объекты, чтобы проверить работу исключений
             circle circle = new circle(-5);
             rectangle rectangle = new rectangle(-4, 6);
-            cylinder cylinder = new cylinder(circle1, -10);
+            cylinder cylinder = new cylinder(circle, -10);
 
         } catch (InvalidRadiusException e) {
             // Если бросается исключение InvalidRadiusException, выводим сообщение об ошибке
