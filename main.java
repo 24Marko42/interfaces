@@ -17,6 +17,7 @@ public class main {
             rectangle rectangle1 = new rectangle(4, 6);
             cylinder cylinder1 = new cylinder(circle1, 10.56);
 
+            // Выводим строковые представления объектов
             System.out.println(circle1.toString());
             System.out.println(rectangle1.toString());
             System.out.println(cylinder1.toString());
@@ -25,11 +26,7 @@ public class main {
             circle circle = new circle(-5);
             rectangle rectangle = new rectangle(-4, 6);
             cylinder cylinder = new cylinder(circle1, -10);
-            
-            // Выводим строковые представления объектов
-            System.out.println(circle.toString());
-            System.out.println(rectangle.toString());
-            System.out.println(cylinder.toString());
+
         } catch (InvalidRadiusException e) {
             // Если бросается исключение InvalidRadiusException, выводим сообщение об ошибке
             System.out.println(e.getMessage());
