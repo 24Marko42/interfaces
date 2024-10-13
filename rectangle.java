@@ -6,9 +6,9 @@ public class rectangle implements figure {
     private double width; //Поле width хранит ширину прямоугольника.
     private double height; // Поле height хранит высоту прямоугольника.
 
-    /**
-     * Конструктор Rectangle создает новый прямоугольник с заданными размерами.
-     * InvalidDimensionException - если размеры отрицательные
+    /*
+    Конструктор Rectangle создает новый прямоугольник с заданными размерами.
+    InvalidDimensionException - если размеры отрицательные
      */
     public rectangle(double width, double height) throws InvalidDimensionException{
         if (width < 0 || height < 0) {

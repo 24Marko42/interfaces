@@ -5,9 +5,9 @@ package interfaces;
 public class circle implements figure {
     private double radius; //Поле radius хранит радиус круга.
 
-    /**
-     * Конструктор Circle создает новый круг с заданным радиусом.
-     * InvalidRadiusException - если радиус отрицательный
+    /*
+    Конструктор Circle создает новый круг с заданным радиусом.
+    InvalidRadiusException - если радиус отрицательный
      */
     public circle(double radius) throws InvalidRadiusException{
         if (radius < 0) {

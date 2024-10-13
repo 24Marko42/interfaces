@@ -5,9 +5,9 @@ public class cylinder implements figure {
     private figure base; //Поле base хранит основание цилиндра.
     private double height; //Поле height хранит высоту цилиндра.
 
-    /**
-     * Конструктор Cylinder создает новый цилиндр с заданным основанием и высотой.
-     * InvalidHeightException - если высота отрицательная
+    /*
+    Конструктор Cylinder создает новый цилиндр с заданным основанием и высотой.
+    InvalidHeightException - если высота отрицательная
      */
     public cylinder(figure base, double height) throws InvalidHeightException {
         if (height < 0) {
