@@ -1,6 +1,5 @@
 package interfaces;
 
-
 //Класс Circle реализует интерфейс Figure и описывает круг.
 public class circle implements figure {
     private double radius; //Поле radius хранит радиус круга.
