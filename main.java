@@ -10,7 +10,7 @@ import geometry2d.rectangle;
 import geometry3d.cylinder;
 
 //В main создаём объекты классов Circle, Rectangle и Cylinder (правильные и неправильные).
-public class Main {
+public class main {
     public static void main(String[] args) {
         try {
             // Создаем объекты (правильные) и выводим их строковое представление 
