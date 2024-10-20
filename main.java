@@ -1,15 +1,16 @@
 package interfaces;
 
 //import всего нужного для работы программы
-import interfaces.Exception.InvalidDimensionException;
-import interfaces.Exception.InvalidHeightException;
-import interfaces.Exception.InvalidRadiusException;
-import interfaces.circle;
-import interfaces.rectangle;
-import interfaces.cylinder;
+import exceptions.InvalidDimensionException;
+import exceptions.InvalidHeightException;
+import exceptions.InvalidRadiusException;
+
+import geometry2d.circle;
+import geometry2d.rectangle;
+import geometry3d.cylinder;
 
 //В main создаём объекты классов Circle, Rectangle и Cylinder (правильные и неправильные).
-public class main {
+public class Main {
     public static void main(String[] args) {
         try {
             // Создаем объекты (правильные) и выводим их строковое представление 

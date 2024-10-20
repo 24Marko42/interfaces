@@ -1,4 +1,4 @@
-package interfaces;
+package exceptions;
 
 //Класс InvalidDimensionException описывает исключение, возникающее при попытке создать прямоугольник с отрицательными размерами.
 public class InvalidDimensionException extends Exception {

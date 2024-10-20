@@ -1,4 +1,6 @@
-package interfaces;
+package geometry2d;
+
+import exceptions.InvalidRadiusException;
 
 //Класс Circle реализует интерфейс Figure и описывает круг.
 public class circle implements figure {

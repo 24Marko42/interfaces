@@ -1,4 +1,7 @@
-package interfaces;
+package geometry3d;
+
+import geometry2d.figure;
+import exceptions.InvalidHeightException;
 
 //Класс Cylinder описывает цилиндр.
 public class cylinder implements figure {

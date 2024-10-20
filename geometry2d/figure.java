@@ -1,4 +1,4 @@
-package interfaces;
+package geometry2d;
 
 //Интерфейс Figure описывает общие методы для всех геометрических фигур.
 public interface figure {

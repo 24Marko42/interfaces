@@ -1,5 +1,6 @@
-package interfaces;
+package geometry2d;
 
+import exceptions.InvalidDimensionException;
 
 //Класс Rectangle реализует интерфейс Figure и описывает прямоугольник.
 public class rectangle implements figure {
